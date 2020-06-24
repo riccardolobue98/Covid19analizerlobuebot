@@ -737,7 +737,8 @@ plt.show()
 
 ##########################################################################
 
-TOKEN = "1112159563:AAGM0b7TXg1VFeyimgMsIBErrt4N1l0O7RE"  # token bot
+#TOKEN = "1112159563:AAGM0b7TXg1VFeyimgMsIBErrt4N1l0O7RE"  # token bot
+TOKEN = "1192422660:AAHL9Q1VVpcajhP_6XKY6Y6_j8dv5mZp9dE" # token bot
 
 
 def on_chat_message(msg):
