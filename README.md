@@ -7,7 +7,7 @@ All’interno vi è anche un sentiment analyzer che sulla console dell’editor 
 I dati vengono aggiornati ogni giorno da questa pagina GitHub : https://github.com/pcm-dpc/COVID-19
 
 Puoi trovare il codice relativo al bot qua: 
-https://github.com/riccardolobue98/Covid19analizerbot
+https://github.com/riccardolobue98/Covid19analizerlobuebot
 
 Il codice da me fornito  analizza vari file ricorrenti alla data del 16 giugno 2020 qualora si volesse utilizzare il file aggiornato scaricato dalla pagina github , https://github.com/pcm-dpc/COVID-19  ,basterà soltanto andar a sostituire all'interno dei file csv tramite il programma Excel come nominativo di regione al posto di “Valle d'Aosta” andiamo a sostituire con la seguente dicitura “Aosta”; questo  per un problema al relativo agli apici o in questo caso all'apice tra “d” e “Aosta”(A tutti gli altri dati non serve apportare modifiche).
 
