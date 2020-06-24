@@ -46,7 +46,7 @@ class SentimentAnalysis:
         # Apro/creo un file a cui aggiungere i dati
         csvFile = open('Risultati_Sentiment_Twitter.csv', 'a')
 
-        # Use csv writer
+        # Uso la scrittura su csv
         csvWriter = csv.writer(csvFile)
 
 
@@ -107,6 +107,7 @@ class SentimentAnalysis:
         print()
         print("I dati calcolati sono risultati principalmente : ")
 
+        #condizioni inerenti alla polaritò
         if (polarity == 0):
             print("Neutrali")
         elif (polarity > 0 and polarity <= 0.3):
@@ -768,10 +769,10 @@ def on_callback_query(msg):
     if query_data == 'info':
 
         bot.sendMessage(chat_id, 'Ecco la descrizione dei comandi di questo bot :')
-        bot.sendMessage(chat_id, 'andamento - Restituisce dei grafici tramite la libreria matplotlib estrapolati da dataframe che hanno come base dei  file csv nel quale vengono mostrati gli andamenti delle positività,guarigioni,morti in Italia sino ad oggi.(I file cvs li aggiorno quotidianamente da una fonte di github nel quale vengono caricati ogni giorno)')
+        bot.sendMessage(chat_id, 'andamento - Restituisce dei grafici tramite la libreria matplotlib estrapolati da dataframe che hanno come base dei  file csv nel quale vengono mostrati gli andamenti delle positività,guarigioni,morti in Italia sino ad oggi.(I file cvs vi si possono aggiornare quotidianamente da una fonte di github nel quale vengono caricati ogni giorno)')
         bot.sendMessage(chat_id, 'forniturestato - Restituisce le informazioni sulle forniture emesse dallo stato sino ad oggi. Queste informazioni vengono salvate su file di tipo TXT e integrano i fornitori, la tipologia di prodotto, il prezzo unitario del bene e la data nel quale è stato fatto il contratto')
-        bot.sendMessage(chat_id, 'andamento_regione - Restituisce dei grafici tramite la libreria matplotlib estrapolati da dataframe che hanno come base dei  file csv nel quale vengono mostrati gli andamenti delle positività,guarigioni,morti in comparazione tra tutte le regioni d’Italia sino ad oggi.')
-        bot.sendMessage(chat_id, 'andamento_provincia - come nel comando andamento regione viene restituito il picco dei positivi in quella precisa provincia(poiché i dati all’interno dei csv Caricati dalla fonte non integrano la quantità dei guariti o dei deceduti).')
+        bot.sendMessage(chat_id, 'tassorischioregione - Restituisce dei grafici tramite la libreria matplotlib estrapolati da dataframe che hanno come base dei file csv nel quale vengono mostrati gli andamenti delle positività,guarigioni,morti in comparazione tra tutte le regioni d’Italia sino ad oggi.')
+        bot.sendMessage(chat_id, 'tassorischioprovincia - Viene restituito il picco dei positivi in quella precisa provincia(poiché i dati all’interno dei csv Caricati dalla fonte non integrano la quantità dei guariti o dei deceduti).')
         bot.sendMessage(chat_id, 'pdfdatiregione - Restituisce  un file pdf convertito in word che mostra i dati in forma tabellare delle positività,guarigioni,morti,,i recoverati con sintomi  ,positivi in terapia intensiva e quelli in isolamento di tutte le regioni sino ad oggi')
         bot.sendMessage(chat_id, 'pdfdatiprovincia - Restituisce  un file pdf convertito in word che mostra i dati in forma tabellare delle positività di tutte le province d’Italia  sino ad oggi ')
         bot.sendMessage(chat_id,'sentiment_analysis_coronavirus - Restituisce il grafico della sentiment analysis inerente al corona coronavirus , calcolato sulla base di un certo numero di tweet postati dalle persone su twitter ')
