@@ -1,4 +1,4 @@
-# Covid19analizerbot
+# Covid19analizerlobuebot
 codice python  bot covid19 telegram 
 
 Questo bot analizza dati inerenti alla diffusione del Covid-19 in tutta Italia mostrando l'andamento della diffusione del virus nel nostro paese.
