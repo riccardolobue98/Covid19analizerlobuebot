@@ -9,8 +9,6 @@ I dati vengono aggiornati ogni giorno da questa pagina GitHub : https://github.c
 Puoi trovare il codice relativo al bot qua: 
 https://github.com/riccardolobue98/Covid19analizerlobuebot
 
-Il codice da me fornito  analizza vari file ricorrenti alla data del 16 giugno 2020 qualora si volesse utilizzare il file aggiornato scaricato dalla pagina github , https://github.com/pcm-dpc/COVID-19  ,basterà soltanto andar a sostituire all'interno dei file csv tramite il programma Excel come nominativo di regione al posto di “Valle d'Aosta” andiamo a sostituire con la seguente dicitura “Aosta”; questo  per un problema al relativo agli apici o in questo caso all'apice tra “d” e “Aosta”(A tutti gli altri dati non serve apportare modifiche).
-
 N.B. : Richiamare in primis il comando /richiamabot per utilizzare i comandi inline che adesso descriverò
 
 Ecco la descrizione dei comandi  :
@@ -28,6 +26,8 @@ pdfdatiregione - Restituisce  un file pdf convertito in word che mostra i dati i
 pdfdatiprovincia - Restituisce  un file pdf convertito in word che mostra i dati in forma tabellare delle positività di tutte le province d’Italia  sino ad oggi
 
 sentiment_analysis_coronavirus - Restituisce il grafico della sentiment analysis inerente al corona coronavirus , calcolato sulla base di un certo numero di tweet postati dalle persone su twitter
+
+Il codice da me fornito  analizza vari file ricorrenti alla data del 16 giugno 2020 qualora si volesse utilizzare il file aggiornato scaricato dalla pagina github , https://github.com/pcm-dpc/COVID-19  ,basterà soltanto andar a sostituire all'interno dei file csv tramite il programma Excel come nominativo di regione al posto di “Valle d'Aosta” andiamo a sostituire con la seguente dicitura “Aosta”; questo  per un problema al relativo agli apici o in questo caso all'apice tra “d” e “Aosta”(A tutti gli altri dati non serve apportare modifiche).
 
 Si raccomanda di utilizzare i file completi es.(dpc-covid19-ita-andamento-nazionale per l’andamento) nel quale sono raccolti tutti i dati inerenti al covid dal 24 febbraio fino ad oggi e non con date specifiche es.(dpc-covid19-ita-andamento-nazionale-20200224) poichè verrebbe visualizzata nel grafico e nella console soltanto una feature relativa a quel giorno con il suo relativo valore.
 
