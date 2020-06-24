@@ -15,6 +15,8 @@ Si raccomanda di utilizzare i file completi es.(dpc-covid19-ita-andamento-nazion
 
 Per quanto riguarda i file doc convertiti da file PDF qualora si volessero utilizzare gli ultimi  file recentemente caricati sulla pagina github,nella sezione schede-riepilogative,  https://github.com/pcm-dpc/COVID-19  ,Basterà soltanto utilizzare un qualsiasi unitore e convertitore da PDF a DOCX  ed inserire il seguente file nella cartella del progetto sostituendo quindi il file DOCX  già esistente.
 
+Per quanto riguarda i grafici inerenti alle province , qualora trovaste un dato in questo caso una provincia che ha come nome sul grafico plottato (in fase di definizione/aggiornamento) si tratta di criticità date dalla fonte dei dati che potrebbe aver aggiunto qualche dato in modo errato nel tempo mostrando così questo risultato . 
+
 Ultimo punto da chiarire  , i grafici.png che vengono salvati nella cartella e inviati al bot per essere visualizzati dall'utente non essendo interattivi come quando ci vengono plottati dal codice sorgente mandandolo in run, nei png mostreranno tutte le date impasticciate tra di loro poichè sono tantissime, questo dato dalla numerosa quantità di feature plottate, ma qualora si volesse vedere piu' correttamente il grafico basterà visualizzare quello plottato dal codice sorgente sul quale potrete sbizzarrirvi nello zoommare sui vari muntini che simboleggiano il numero di positivi,guariti,deceduti,ecc... (ovviamente in base al grafico) , in quella precisa data.
 
 Con questo vi ringrazio per aver visionato il mio progetto.
