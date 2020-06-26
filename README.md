@@ -11,7 +11,10 @@ https://github.com/riccardolobue98/Covid19analizerlobuebot
 
 Nome del bot da cercare su telegram: @covid19analizerlobuebot
 
-N.B. : Richiamare in primis il comando /richiamabot per utilizzare i comandi inline che adesso descriverò
+N.B. : Avviate prima il programma inserite la parola chiave di ricerca dei tweet (in questo caso covid o simili dato che parliamo di covid), inserite su quanti tweet fare la predizione, attendere che si scarichino e li analizzi tutti.
+Da adesso verranno mostrati vari plot tutti diversi in base alle varie operazioni su diversi dataset,visualizzate tutti i plot e man mano chiudeteli.
+Quando tutti i plot sono terminati vedrete nella console che il programma è in attesa di comandi da parte del bot Telegram.
+A quel punto Richiamare in primis il comando /richiamabot per utilizzare i comandi inline che vengono mostrati che adesso descriverò (niente inserimento testuale).
 
 Ecco la descrizione dei comandi  :
 
