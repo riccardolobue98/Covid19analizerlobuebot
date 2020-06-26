@@ -9,6 +9,8 @@ I dati vengono aggiornati ogni giorno da questa pagina GitHub : https://github.c
 Puoi trovare il codice relativo al bot qua: 
 https://github.com/riccardolobue98/Covid19analizerlobuebot
 
+Nome del bot da cercare su telegram: @covid19analizerlobuebot
+
 N.B. : Richiamare in primis il comando /richiamabot per utilizzare i comandi inline che adesso descriverò
 
 Ecco la descrizione dei comandi  :
