@@ -67,7 +67,7 @@ class SentimentAnalysis:
             self.tweetText.append(self.cleanTweet(tweet.text).encode('utf-8'))
 
             analysis = TextBlob(tweet.text)
-            print(analysis.sentiment)  # print tweet's polarity
+            print(analysis.sentiment)  # printo la polarità dei tweet
             polarity += analysis.sentiment.polarity  # sommo le polarità per trovare la media in seguito
 
             if (analysis.sentiment.polarity == 0):  # aggiungo un valore per ogni reazione delle persone , e userò questi dati quando calcolerò la loro media
