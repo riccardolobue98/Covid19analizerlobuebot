@@ -185,7 +185,7 @@ plt.savefig('totale_positivi.png')
 
 
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 
 
@@ -260,7 +260,7 @@ gsicilia = sns.scatterplot(data=dfsicilia, x='data', y='totale_positivi')
 
 plt.savefig('andamento_sicilia.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### sardegna ###################################################
 dfsardegna=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Sardegna')]
@@ -271,7 +271,7 @@ gsardegna = sns.scatterplot(data=dfsardegna, x='data', y='totale_positivi')
 
 plt.savefig('andamento_sardegna.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### calabria ###################################################
 dfcalabria=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Calabria')]
@@ -282,7 +282,7 @@ gcalabria = sns.scatterplot(data=dfcalabria, x='data', y='totale_positivi')
 
 plt.savefig('andamento_calabria.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### basilicata ###################################################
 dfbasilicata=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Basilicata')]
@@ -293,7 +293,7 @@ gbasilicata = sns.scatterplot(data=dfbasilicata, x='data', y='totale_positivi')
 
 plt.savefig('andamento_basilicata.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### campania  ###################################################
 dfcampania=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Campania')]
@@ -304,7 +304,7 @@ gcampania = sns.scatterplot(data=dfcampania, x='data', y='totale_positivi')
 
 plt.savefig('andamento_campania.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### puglia ###################################################
 dfpuglia=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Puglia')]
@@ -315,7 +315,7 @@ gpuglia = sns.scatterplot(data=dfpuglia, x='data', y='totale_positivi')
 
 plt.savefig('andamento_puglia.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### molise ###################################################
 dfmolise=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Molise')]
@@ -326,7 +326,7 @@ gmolise = sns.scatterplot(data=dfmolise, x='data', y='totale_positivi')
 
 plt.savefig('andamento_molise.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati
 plt.show()
 #################################################### lazio ###################################################
 dflazio=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Lazio')]
@@ -337,7 +337,7 @@ glazio = sns.scatterplot(data=dflazio, x='data', y='totale_positivi')
 
 plt.savefig('andamento_lazio.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### abruzzo ###################################################
 dfabruzzo=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Abruzzo')]
@@ -348,7 +348,7 @@ gabruzzo = sns.scatterplot(data=dfabruzzo, x='data', y='totale_positivi')
 
 plt.savefig('andamento_abruzzo.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### marche ###################################################
 dfmarche=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Marche')]
@@ -359,7 +359,7 @@ gmarche = sns.scatterplot(data=dfmarche, x='data', y='totale_positivi')
 
 plt.savefig('andamento_marche.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati
 plt.show()
 #################################################### umbria ###################################################
 dfumbria=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Umbria')]
@@ -370,7 +370,7 @@ gumbria = sns.scatterplot(data=dfumbria, x='data', y='totale_positivi')
 
 plt.savefig('andamento_umbria.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### toscana ###################################################
 dftoscana=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Toscana')]
@@ -381,7 +381,7 @@ gtoscana = sns.scatterplot(data=dftoscana, x='data', y='totale_positivi')
 
 plt.savefig('andamento_toscana.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati
 plt.show()
 #################################################### emilia-romagna ###################################################
 dfemiliaromagna=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Emilia-Romagna')]
@@ -392,7 +392,7 @@ gemiliaromagna = sns.scatterplot(data=dfemiliaromagna, x='data', y='totale_posit
 
 plt.savefig('andamento_emiliaromagna.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati
 plt.show()
 #################################################### liguria ###################################################
 dfliguria=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Liguria')]
@@ -403,7 +403,7 @@ gliguria = sns.scatterplot(data=dfliguria, x='data', y='totale_positivi')
 
 plt.savefig('andamento_liguria.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### Piemonte ###################################################
 dfPiemonte=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Piemonte')]
@@ -414,7 +414,7 @@ gPiemonte = sns.scatterplot(data=dfPiemonte, x='data', y='totale_positivi')
 
 plt.savefig('andamento_Piemonte.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### valle d'aosta ###################################################
 dfvalledaosta=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Aosta')]
@@ -425,7 +425,7 @@ gvalledaosta = sns.scatterplot(data=dfvalledaosta, x='data', y='totale_positivi'
 
 plt.savefig('andamento_valledaosta.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati
 plt.show()
 #################################################### Lombardia ###################################################
 dfLombardia=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Lombardia')]
@@ -436,7 +436,7 @@ gLombardia = sns.scatterplot(data=dfLombardia, x='data', y='totale_positivi')
 
 plt.savefig('andamento_Lombardia.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati dopo
 plt.show()
 #################################################### Trentino ###################################################
 dfTrento=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Trento')]
@@ -447,7 +447,7 @@ gTrento = sns.scatterplot(data=dfTrento, x='data', y='totale_positivi')
 
 plt.savefig('andamento_Trentino.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati
 plt.show()
 #################################################### Friuli Venezia Giulia ###################################################
 dfFriuli_Venezia_Giulia=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Friuli Venezia Giulia')]
@@ -458,7 +458,7 @@ gFriuli_Venezia_Giulia= sns.scatterplot(data=dfFriuli_Venezia_Giulia, x='data', 
 
 plt.savefig('andamento_Friuli_Venezia_Giulia.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### Veneto ###################################################
 dfVeneto=dftotale_positivi_regione[dftotale_positivi_regione['denominazione_regione'].str.contains('Veneto')]
@@ -469,7 +469,7 @@ gVeneto = sns.scatterplot(data=dfVeneto, x='data', y='totale_positivi')
 
 plt.savefig('andamento_Veneto.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 
 
@@ -511,7 +511,7 @@ gsiciliaprovince = sns.scatterplot(data=dfsiciliaprovince, x='denominazione_prov
 
 plt.savefig('andamento_siciliaprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### sardegna ###################################################
 dfsardegnaprovince=dftotale_positivi_province[dftotale_positivi_province['denominazione_regione'].str.contains('Sardegna')]
@@ -522,7 +522,7 @@ gsardegnaprovince = sns.scatterplot(data=dfsardegnaprovince, x='denominazione_pr
 
 plt.savefig('andamento_sardegnaprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### calabria ###################################################
 dfcalabriaprovince=dftotale_positivi_province[dftotale_positivi_province['denominazione_regione'].str.contains('Calabria')]
@@ -533,7 +533,7 @@ gcalabriaprovince = sns.scatterplot(data=dfcalabriaprovince, x='denominazione_pr
 
 plt.savefig('andamento_calabriaprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati
 plt.show()
 #################################################### basilicata ###################################################
 dfbasilicataprovince=dftotale_positivi_province[dftotale_positivi_province['denominazione_regione'].str.contains('Basilicata')]
@@ -544,7 +544,7 @@ gbasilicataprovince = sns.scatterplot(data=dfbasilicataprovince, x='denominazion
 
 plt.savefig('andamento_basilicataprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### campania  ###################################################
 dfcampaniaprovince=dftotale_positivi_province[dftotale_positivi_province['denominazione_regione'].str.contains('Campania')]
@@ -555,7 +555,7 @@ gcampaniaprovince = sns.scatterplot(data=dfcampaniaprovince, x='denominazione_pr
 
 plt.savefig('andamento_campaniaprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati
 plt.show()
 #################################################### puglia ###################################################
 dfpugliaprovince=dftotale_positivi_province[dftotale_positivi_province['denominazione_regione'].str.contains('Puglia')]
@@ -566,7 +566,7 @@ gpugliaprovince = sns.scatterplot(data=dfpugliaprovince, x='denominazione_provin
 
 plt.savefig('andamento_pugliaprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### molise ###################################################
 dfmoliseprovince=dftotale_positivi_province[dftotale_positivi_province['denominazione_regione'].str.contains('Molise')]
@@ -577,7 +577,7 @@ gmoliseprovince = sns.scatterplot(data=dfmoliseprovince, x='denominazione_provin
 
 plt.savefig('andamento_moliseprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati
 plt.show()
 #################################################### lazio ###################################################
 dflazioprovince=dftotale_positivi_province[dftotale_positivi_province['denominazione_regione'].str.contains('Lazio')]
@@ -588,7 +588,7 @@ glazioprovince = sns.scatterplot(data=dflazioprovince, x='denominazione_provinci
 
 plt.savefig('andamento_lazioprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati
 plt.show()
 #################################################### abruzzo ###################################################
 dfabruzzoprovince=dftotale_positivi_province[dftotale_positivi_province['denominazione_regione'].str.contains('Abruzzo')]
@@ -599,7 +599,7 @@ gabruzzoprovince = sns.scatterplot(data=dfabruzzoprovince, x='denominazione_prov
 
 plt.savefig('andamento_abruzzoprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### marche ###################################################
 dfmarcheprovince=dftotale_positivi_province[dftotale_positivi_province['denominazione_regione'].str.contains('Marche')]
@@ -610,7 +610,7 @@ gmarcheprovince = sns.scatterplot(data=dfmarcheprovince, x='denominazione_provin
 
 plt.savefig('andamento_marcheprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### umbria ###################################################
 dfumbriaprovince=dftotale_positivi_province[dftotale_positivi_province['denominazione_regione'].str.contains('Umbria')]
@@ -621,7 +621,7 @@ gumbriaprovince = sns.scatterplot(data=dfumbriaprovince, x='denominazione_provin
 
 plt.savefig('andamento_umbriaprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### toscana ###################################################
 dftoscanaprovince=dftotale_positivi_province[dftotale_positivi_province['denominazione_regione'].str.contains('Toscana')]
@@ -632,7 +632,7 @@ gtoscanaprovince = sns.scatterplot(data=dftoscanaprovince, x='denominazione_prov
 
 plt.savefig('andamento_toscanaprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### emilia-romagna ###################################################
 dfemiliaromagnaprovince=dftotale_positivi_province[dftotale_positivi_province['denominazione_regione'].str.contains('Emilia-Romagna')]
@@ -643,7 +643,7 @@ gemiliaromagnaprovince = sns.scatterplot(data=dfemiliaromagnaprovince, x='denomi
 
 plt.savefig('andamento_emiliaromagnaprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati dopo 
 plt.show()
 #################################################### liguria ###################################################
 dfliguriaprovince=dftotale_positivi_province[dftotale_positivi_province['denominazione_regione'].str.contains('Liguria')]
@@ -654,7 +654,7 @@ gliguriaprovince = sns.scatterplot(data=dfliguriaprovince, x='denominazione_prov
 
 plt.savefig('andamento_liguriaprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati dopo 
 plt.show()
 #################################################### Piemonte ###################################################
 dfPiemonteprovince=dftotale_positivi_province[dftotale_positivi_province['denominazione_regione'].str.contains('Piemonte')]
@@ -665,7 +665,7 @@ gPiemonteprovince = sns.scatterplot(data=dfPiemonteprovince, x='denominazione_pr
 
 plt.savefig('andamento_Piemonteprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### valle d'aosta ###################################################
 dfvalledaostaprovince=dftotale_positivi_province[dftotale_positivi_province['denominazione_regione'].str.contains('Aosta')]
@@ -676,7 +676,7 @@ gvalledaostaprovince = sns.scatterplot(data=dfvalledaostaprovince, x='denominazi
 
 plt.savefig('andamento_valledaostaprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### Lombardia ###################################################
 dfLombardiaprovince=dftotale_positivi_province[dftotale_positivi_province['denominazione_regione'].str.contains('Lombardia')]
@@ -687,7 +687,7 @@ gLombardiaprovince = sns.scatterplot(data=dfLombardiaprovince, x='denominazione_
 
 plt.savefig('andamento_Lombardiaprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati
 plt.show()
 #################################################### Trentino ###################################################
 dfTrentoprovince=dftotale_positivi_province[dftotale_positivi_province['denominazione_regione'].str.contains('Trento')]
@@ -698,7 +698,7 @@ gTrentoprovince = sns.scatterplot(data=dfTrentoprovince, x='denominazione_provin
 
 plt.savefig('andamento_Trentinoprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 plt.show()
 #################################################### Friuli Venezia Giulia ###################################################
 dfFriuli_Venezia_Giuliaprovince=dftotale_positivi_province[dftotale_positivi_province['denominazione_regione'].str.contains('Friuli Venezia Giulia')]
@@ -709,7 +709,7 @@ gFriuli_Venezia_Giuliaprovince= sns.scatterplot(data=dfFriuli_Venezia_Giuliaprov
 
 plt.savefig('andamento_Friuli_Venezia_Giuliaprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati
 
 plt.show()
 #################################################### Veneto ###################################################
@@ -721,7 +721,7 @@ gVenetoprovince = sns.scatterplot(data=dfVenetoprovince, x='denominazione_provin
 
 plt.savefig('andamento_Venetoprovince.png')
 
-#plottiamo i dati dopo aver usato lo scaler MinMaxscaler
+#plottiamo i dati 
 
 plt.show()
 
